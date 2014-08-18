@@ -1,0 +1,24 @@
+<span style="color: blueviolet; font-size: large;"><b>BREADS</b></span><br />
+<ul>
+
+<select id="Breads" name="Breads">
+<option value="http://www.mikispantry.com/2012/09/how-to-make-banana-bread.html">Banana Bread</option>
+<option value="http://www.mikispantry.com/2011/06/banana-nut-bread.html">Banana Nut Bread</option>
+<option value="http://www.mikispantry.com/2011/06/blueberry-almond-bread.html">Blueberry Almond Bread</option>
+<option value="http://www.mikispantry.com/2011/06/chocolate-chip-walnut-bread.html">Chocolate Chip Walnut Bread</option>
+<option value="http://www.mikispantry.com/2011/06/chocolate-orange-walnut-bread.html">Chocolate Orange Walnut Bread</option>
+<option value="http://www.mikispantry.com/2011/06/cranberry-almond-corn-bread.html">Cranberry Almond Corn Bread</option>
+<option value="http://www.mikispantry.com/2011/06/pumpkin-bread.html">Pumpkin Bread</option>
+<option value="http://www.mikispantry.com/2011/06/strawberry-bread.html">Strawberry Bread</option>
+</select>
+
+<script type="text/javascript">
+ var urlmenu = document.getElementById( 'Breads' );
+ urlmenu.onchange = function() 
+ {
+   window.open( this.options[ this.selectedIndex ].value );
+ };
+</script>
+
+</ul>
+<br />
